@@ -37,6 +37,13 @@
 			<version>7.0.0-beta3</version>
 			<scope>test</scope>
 		</dependency>
+		
+			<dependency>
+    <groupId>ru.yandex.qatools.ashot</groupId>
+    <artifactId>ashot</artifactId>
+    <version>1.5.2</version>
+</dependency>
+
 
 	</dependencies>
 
