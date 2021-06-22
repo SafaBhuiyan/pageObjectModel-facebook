@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class JobsLinkPage {
 	
-	WebDriver driver;
+	 public WebDriver driver;
 	
 	//      //ul[contains(@class,'uiList pageFooterLink')]/li[15]/a
 	
@@ -18,7 +18,6 @@ public class JobsLinkPage {
 	
 	public JobsLinkPage(WebDriver driver) {
 		this.driver=driver;
-		PageFactory.initElements(driver, this);
 	}
 	
 	public void clickJobLink() {

@@ -8,13 +8,12 @@ import org.openqa.selenium.WebDriver;
 
 public class AboutLinkPage {
 	
-	WebDriver driver;
+	public WebDriver driver;
 	
 	@FindBy(how=How.XPATH, using="//ul[contains(@class,'uiList pageFooterLink')]/li[23]/a") WebElement aboutLink;
 	
 	public AboutLinkPage(WebDriver driver) {
 		this.driver=driver;
-		PageFactory.initElements(driver, this);
 	}
 	
 	public void clickAboutLink() {

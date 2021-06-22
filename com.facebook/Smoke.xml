@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Page Object Model">
 
- <parameter name="browser" value="Firefox"/>
-  <test name="SmokeTest">
+
+     <parameter name="browser" value="chorme"/>
+  
+   <test name="SmokeTest1">
+
  
     <classes>
-      <class name="com.facebook.LoginTests.AccountLoginTest"/>
+     <class name="com.facebook.LinksTests.JobsLinkTest"/>
+     <class name="com.facebook.LinksTests.AboutLinkTest"/>
     </classes>
-  </test> <!-- Test -->
+    
+  </test> <!-- Test --> 
+
 </suite> <!-- Suite -->
